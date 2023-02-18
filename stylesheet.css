@@ -1,0 +1,285 @@
+body   {
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 15px; 
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    background-color:#f4f4f4 ;
+}
+
+/* Global features*/
+.container  {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+}
+
+/*Header*/
+Header {
+    background:black;
+    color:#ffffff;
+    padding-top: 0px;
+    min-height: 50px;
+    border-bottom:  #e8491d 3px solid;
+    
+}
+
+header #logo img {
+   height:100px;
+   width: 100px;
+   float: left;
+   padding-bottom: 5px;
+   margin-bottom: 15px;
+   margin-top: 20px;
+
+}
+
+
+
+header #branding {
+    margin-top: 30px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    float: left;
+
+}
+
+header #branding h1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+
+header nav {
+    float: right;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+header ul {
+    margin-top: 60px;
+    padding: 0px;
+    
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;  
+
+}
+
+
+header .highlight,header .current a { color: #e8491d;}
+
+
+
+header a:hover {
+    color: #cccccc;
+     font-weight: bold;
+}
+
+
+
+#showcase {
+    background: url(site_images/web_dev_pillar_page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    color: #ffffff;       
+}
+
+#showcase h1 {
+          text-align: center;
+          color:lightblue;
+          margin-top: 250px;
+
+}
+
+
+#showcase p {
+    text-align: center;
+    color:lightblue;
+    margin-top: 30px;
+    font-weight: 600; 
+
+}
+
+
+
+#newsletter {
+     background:#e8491d;
+    color:#35424a ;  
+
+}
+
+#newsletter h2 {
+     float: left;
+    margin-top: 30px;
+
+}
+
+
+#newsletter form {
+    float: right;
+    display: inline;
+    margin-top:30px;
+    margin-bottom: 10px;
+    height: 30px;
+    border:0px;
+    
+}
+
+
+#newsletter input {
+    height: 30px;
+    width:200px;
+    border-radius: 5px;
+    border: 0px 0px 0px 0px;
+
+}
+
+
+#newsletter  form  button {
+    background:lightblue;
+    border-radius: 5px;
+    border: 0px;
+    height: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: small;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#boxes {
+    margin-top: 10px;
+    background-color: #ffffff;
+    
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes .box img  {
+   
+    display: inline;
+    height: 150px;
+    width: 150px;
+
+}
+
+
+#boxes .box .h { 
+    text-align: center;
+
+
+}
+
+/**about page **/
+article#main-col {
+    float: left;
+    width: 60%;
+    
+
+}
+.dark {
+    padding: 15px;
+    background:#35424a ;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+/*aside*/
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .Quote input,aside#sidebar .Quote textarea {
+    width:90%;
+    padding: 5px;
+
+}
+
+.button_1 {
+    background: #e8491d;
+    color: white;
+    border: 0px;
+    height: 30px;
+}
+/*main-col*/
+article#main-col {
+    float: left;
+     width: 65%;
+}
+
+/*services*/
+
+ul#services {
+    list-style-type: none;
+    padding:20px;
+    border:#cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+
+
+}
+
+
+
+
+    footer {
+    margin: 0px 0px 0px 0px;
+    height:80px ;
+    background-color: orangered;
+    color:lightblue;
+    text-align: center;
+
+
+}
+
+
+
+
+
+/*media Queries*/
+@media(max-width:768p){
+   header #branding 
+   header nav
+   header nav li{
+   float: none;
+   text-align:center;
+   width: 100%;
+
+   
+
+   }
